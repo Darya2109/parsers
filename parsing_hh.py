@@ -42,7 +42,7 @@ for vac in vacancies_info['items']:
         'published_at': vac['published_at'],
         'archived': vac['archived'],
         'name': vac['name'],
-        'salary': vac['salary']['from'],
+        'salary': vac['salary'],
         'company': vac['employer']['name'],
         'area': vac['area']['name'],
         'requirement': vac['snippet']['requirement'],
